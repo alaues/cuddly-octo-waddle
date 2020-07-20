@@ -19,16 +19,14 @@ In case of missing `x-api-key` header, server will respond:
     } 
 ```
 ## Terms:
-`email` valid email address, like: something@gmail.com
-`code` 4-digits code, no alpha chars, no spaces, like: 1234, 5030 
+* `email` valid email address, like: something@gmail.com
+* `code` 4-digits code, no alpha chars, no spaces, like: 1234, 5030 
 
-### POST /api/sendCode
+###POST  /api/sendCode
 
 This endpoint performs generating 4-digits code and sending to specified email address
 
-URL:
-
-http://localhost/api/sendCode
+URL: `http://localhost/api/sendCode`
 
 Request type : `POST`
 
@@ -66,15 +64,11 @@ Limit:
 * API accepts only 5 requests `/sendCode` within last hour
 
 
-
-
-### POST /api/checkCode
+## POST /api/checkCode
 
 This endpoint compares specified code with generated code in `sendCode` method   
 
-URL:
-
-http://localhost/api/sendCode
+URL: `http://localhost/api/sendCode`
 
 Request type: `POST`
 
@@ -109,5 +103,7 @@ or
 ```
 
 Limit:
-* API accepts only 3 failed requests, when 3rd failed request is performed,
-code will be deleted, client should request for new code by sending another `sendCode` request
+* API accepts only 3 failed requests,<br> 
+ when 3rd failed request is performed,
+ code will be deleted.<br> 
+ Client should request for new code by sending another `sendCode` request
