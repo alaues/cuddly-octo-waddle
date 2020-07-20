@@ -2,7 +2,7 @@
 
 $router->group(['prefix' => 'api'], function () use ($router) {
 
-    $router->get('sendCode',
+    $router->post('sendCode',
         [
             'uses' => 'CodeController@send',
             'middleware' => ['apiKey', 'sendCode']
