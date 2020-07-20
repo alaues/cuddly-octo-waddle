@@ -22,7 +22,7 @@ In case of missing `x-api-key` header, server will respond:
 * `email` valid email address, like: something@gmail.com
 * `code` 4-digits code, no alpha chars, no spaces, like: 1234, 5030 
 
-###POST  /api/sendCode
+## POST  /api/sendCode
 
 This endpoint performs generating 4-digits code and sending to specified email address
 
