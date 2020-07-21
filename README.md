@@ -14,6 +14,8 @@ Test API based on Lumen framework
 
 * specify database credentials in `.env` file
 
+* specify SMTP credentials in `.env` file
+
 * run migration
    
    `php artisan migrate`
