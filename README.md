@@ -2,6 +2,18 @@
 
 Test API based on Lumen framework
 
+# Requirements
+
+* Lumen framework
+
+* php 7.4
+
+* MySQL database
+
+* composer
+
+* phpunit
+
 # Installation
 
 * clone project into directory
