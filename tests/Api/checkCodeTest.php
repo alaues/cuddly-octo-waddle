@@ -3,8 +3,6 @@
 namespace Api;
 
 use App\Models\EmailAddress;
-use Faker\Generator as Faker;
-
 
 class checkCodeTest extends \TestCase
 {
