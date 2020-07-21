@@ -18,7 +18,11 @@ Test API based on Lumen framework
    
    `php artisan migrate`
    
-* application is ready<br> API specification is located in `API.md` file
+* application is ready<br> 
+
+# API specification
+
+API specification is located  [here](./API.md)
 
 # Tests
 
