@@ -19,3 +19,11 @@ Test API based on Lumen framework
    `php artisan migrate`
    
 * application is ready<br> API specification is located in `API.md` file
+
+# Tests
+
+Tests are available in directory `tests`<br>
+
+To run tests, execute
+
+   `vendor/bin/phpunit tests`
